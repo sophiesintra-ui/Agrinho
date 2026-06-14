@@ -1,9 +1,9 @@
 // Banco de dados de perguntas traduzidas para evitar repetição de código estrutural
 const translations = {
     pt: {
-        title: "Agro Forte, Futuro Sustentável",
-        subtitle: "Equilíbrio entre produção e meio ambiente",
-        welcome: "Olá, amigo! Vamos testar seus conhecimentos sobre a nossa terra?",
+        title: "Meio Ambiente e Tecnologia:",
+        subtitle: "uma parceria inovadora",
+        welcome: "Olá, amigo(a)! Vamos testar seus conhecimentos sobre o Agro Forte?",
         correctMsg: "Muito bem! Você acertou! 🎉",
         wrongMsg: "Ah, não foi dessa vez! A resposta certa era: ",
         questionOf: "Pergunta {current} de {total}",
@@ -12,14 +12,14 @@ const translations = {
         restart: "Jogar Novamente",
         next: "Próxima Pergunta",
         questions: [
-            { q: "O que é agricultura sustentável?", env: ["Produzir alimentos sem destruir a natureza.", "Usar todo o espaço sem plantar árvores.", "Usar muito agrotóxico."], ans: 0 },
-            { q: "Qual a importância das abelhas para o agro?", env: ["Elas só fazem mel.", "Elas ajudam a polinizar as plantas para gerarem frutos.", "Elas não têm importância."], ans: 1 },
+            { q: "O que é agricultura sustentável?", env: ["Produzir alimentos sem destruir a natureza.", "Usar todo o espaço sem preservar.", "Usar muitos agrotóxicos."], ans: 0 },
+            { q: "Qual a importância da preservação ambiental?", env: ["Não é importante.", "Somente rios são beneficiados.", "Espaços naturais são protegidos, ajudando a fauna e a flora."], ans: 2 },
             { q: "O que podemos fazer com os restos de alimentos vegetais?", env: ["Queimar tudo.", "Jogar no rio.", "Fazer adubo natural (compostagem)."], ans: 2 },
-            { q: "Para economizar água na plantação, o melhor método é:", env: ["Gotejamento direto na raiz.", "Deixar a mangueira aberta o dia todo.", "Esperar apenas que chova."], ans: 0 },
-            { q: "O que são árvores nativas em uma fazenda?", env: ["Árvores trazidas de outros países.", "Árvores que já nascem naturalmente na própria região.", "Plantas artificiais."], ans: 1 },
-            { q: "O que é a rotação de culturas?", env: ["Mudar as plantas de lugar toda semana.", "Alternar o tipo de plantação para proteger o solo.", "Girar as sementes antes de plantar."], ans: 1 },
+            { q: "Qual das opções representa um avanço tecnológico na agricultura:", env: ["Sistemas de irrigação inteligentes.", "Colheita realizada manualmente.", "Regar plantações com a mangueira."], ans: 0 },
+            { q: "Marque a opção que indica o principal dano causado pelo uso excessivo de agrotóxicos:", env: ["Alimentos totalmente naturais.", "Riscos para a saúde dos produtores e consumidores.", "Alimentos mais saborosos."], ans: 1 },
+            { q: "Por que é necessário manter o solo saudável?", env: ["Por que as plantações precisam de um solo saudável para crescerem.", "Para que o solo se torne infértil.", "Para facilitar somente a plantação de milho."], ans: 0 },
             { q: "Como a tecnologia ajuda o meio ambiente no campo?", env: ["Drones e sensores que calculam a quantidade certa de água.", "Criando robôs que destroem matas.", "A tecnologia não ajuda."], ans: 0 },
-            { q: "As florestas perto de rios servem para:", env: ["Proteger a água e evitar que a terra caia no rio.", "Enfeitar a fazenda.", "Atrapalhar a passagem de tratores."], ans: 0 },
+            { q: "As florestas perto de rios servem para:", env: ["Evitar a passagem de tratores.", "Enfeitar a paisagem.", "Proteger as nascentes e os leitos dos rios."], ans: 1 },
             { q: "O que é energia limpa usada nas fazendas?", env: ["Energia solar e eólica (do vento).", "Energia vinda de combustíveis que poluem.", "Energia que limpa o chão."], ans: 0 }
         ]
     },
